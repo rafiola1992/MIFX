@@ -29,6 +29,8 @@ sure Login functionalities are working well.
 * c. Boundary value cases
 4. Provide the reporting test (preferable by email notification) for both of UI level and API 
 level.
+* Report Automation API : https://github.com/rafiola1992/jubelio/blob/78e45628e4778e4c4ad18dbe2976cd2019a78469/Automation+API+-+Jubelio-Job-Report-19-11-2021+05-45-13-full.pdf
+* Report Automation UI : https://github.com/rafiola1992/jubelio/blob/78e45628e4778e4c4ad18dbe2976cd2019a78469/RegressionTest+-+Jubelio-Job-Report-19-11-2021+05-11-12-full.pdf
 5. Purpose your approach or strategy for manual and automation testing architecture to 
 integrate testing UI level and API level in CI/CD environment, with cost optimization.
 6. Deliverable: please send back to us (within 3 days) the document or source file (as a zip 
