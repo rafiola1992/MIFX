@@ -33,7 +33,8 @@ level.
 * Report Automation UI : https://github.com/rafiola1992/jubelio/blob/78e45628e4778e4c4ad18dbe2976cd2019a78469/RegressionTest+-+Jubelio-Job-Report-19-11-2021+05-11-12-full.pdf
 5. Purpose your approach or strategy for manual and automation testing architecture to 
 integrate testing UI level and API level in CI/CD environment, with cost optimization.
+https://github.com/rafiola1992/jubelio/raw/main/Strategy%20and%20cicd%20architecture.xlsx
+
 6. Deliverable: please send back to us (within 3 days) the document or source file (as a zip 
 file or preferable in GitHub/GitLab repository).
-
-> DO NOT EDIT THIS REPOSITORY OR ITS CONTENT MANUALLY.
+https://github.com/rafiola1992/jubelio.git
