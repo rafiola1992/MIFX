@@ -1,7 +1,7 @@
-id: 56ML_I8v9k-AdXBeR2OQJA
+id: L4UGoZHE1U-3hzLjLZ9ekw
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T07:22:22.5766364Z
+created: 2021-11-22T10:43:29.1255407Z
 protocol: 1
 tests:
 - id: 0NdOeb3bwUCEPc-1t-EbTw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T07:01:46.0000000
-  modificationDate: 2021-11-22T07:21:19.0000000
+  modificationDate: 2021-11-22T10:43:26.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
@@ -165,9 +165,9 @@ tests:
     type: Action
     elementId: 40qwDr2WmkKM8qT8Ppqqyg
     settings:
-      sleepTime: -1
+      sleepTime: 1000
       timeout: -1
-      sleepTiming: Inherit
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -188,9 +188,9 @@ tests:
     type: Action
     elementId: T2Wi_EfhK0aNZXAejSPbuA
     settings:
-      sleepTime: -1
+      sleepTime: 1000
       timeout: -1
-      sleepTiming: Inherit
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
