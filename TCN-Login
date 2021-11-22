@@ -1,7 +1,7 @@
-id: qrBH2MNy7EaK8Ak2O8zXqQ
+id: 3XY2BGwn_029Uc9UdLpcGg
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T06:39:05.2905502Z
+created: 2021-11-22T06:50:02.4311233Z
 protocol: 1
 tests:
 - id: g-XDCzIUdUKSD0qbEck45g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T06:29:39.0000000
-  modificationDate: 2021-11-22T06:32:40.0000000
+  modificationDate: 2021-11-22T06:45:29.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
@@ -131,7 +131,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Rafiola@1234
+      value: Rafiola@1111
       direction: Input
     conditions: []
     validations: []
@@ -156,14 +156,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: OvPugaGc6UiTamE2wqNtaQ
+  - id: iZh95MZ0fUunFVeUOzW_RQ
     comments: ''
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Action
-    elementId: sYQW-qm7pkCBIJ8PFIIdbw
+    elementId: wbmaByao4E6Le6wW2yqUYA
     settings:
       sleepTime: -1
       timeout: -1
@@ -175,7 +175,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: ''
+      value: Password atau email anda salah.
       direction: Input
     conditions: []
     validations: []
@@ -251,18 +251,21 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/button
     priority: 2
-- id: sYQW-qm7pkCBIJ8PFIIdbw
-  name: IMG
+- id: wbmaByao4E6Le6wW2yqUYA
+  name: Password atau email anda salah.
   type:
-    id: jUwODgyNjAyNzk2NTk1NTI
-    name: Image
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
     source: System
   locators:
   - name: XPATH
-    value: //span/img
+    value: //li[. = 'Password atau email anda salah.']
     priority: 0
   - name: XPATH
-    value: /html/body/div[1]/div/div[2]/nav/div/li/div[1]/span/img
+    value: //div/li
     priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div[1]/li
+    priority: 2
 projectParameters: []
 addons: []
