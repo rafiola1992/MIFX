@@ -1,18 +1,18 @@
-id: Rq8A8xbMCUuRtnU3kNUq4g
+id: j6BFXChE2EuTkYe2pliM9g
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T11:01:22.5221855Z
+created: 2021-11-22T11:01:39.7612840Z
 protocol: 1
 tests:
 - id: 6wI6IBsTCUK7PjnbkhKZYg
-  name: TAN-API po
+  name: TAN-APIPOS
   description: API Negative Case
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T07:52:15.0000000
-  modificationDate: 2021-11-22T11:01:22.0000000
+  modificationDate: 2021-11-22T11:01:40.0000000
   settings:
     automationAssistant: true
     appId: qMB-eFwLTUqPMPgnym5J_g
