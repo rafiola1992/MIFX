@@ -1,7 +1,7 @@
-id: ft1hoQB-F026DSQGG1Q2VA
+id: 56ML_I8v9k-AdXBeR2OQJA
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T07:12:00.2925116Z
+created: 2021-11-22T07:22:22.5766364Z
 protocol: 1
 tests:
 - id: 0NdOeb3bwUCEPc-1t-EbTw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T07:01:46.0000000
-  modificationDate: 2021-11-22T07:11:36.0000000
+  modificationDate: 2021-11-22T07:21:19.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
@@ -267,10 +267,50 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: MtuODrXfF0yNt4VdUxVOlQ
+  - id: 3IfXX37M4kiHWAoqz18gmw
     enabled: true
     invertResult: false
     order: 12
+    repeat: 1
+    type: Action
+    elementId: EiQ8KpwJZ0CmR4P_MBXWwA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9Qpe8sgBLU2aOd5QccYE0A
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: T2Wi_EfhK0aNZXAejSPbuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dOsOYlTHykuEGPngcjjB7A
+    enabled: true
+    invertResult: false
+    order: 14
     repeat: 1
     type: Action
     elementId: T2Wi_EfhK0aNZXAejSPbuA
@@ -290,10 +330,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 3IfXX37M4kiHWAoqz18gmw
+  - id: iMVj6y4QfU2NRHbleppMJA
     enabled: true
     invertResult: false
-    order: 13
+    order: 15
     repeat: 1
     type: Action
     elementId: EiQ8KpwJZ0CmR4P_MBXWwA
@@ -307,30 +347,6 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: xXp57vl6cUCoODGUZih8gQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 14
-    repeat: 1
-    type: Action
-    elementId: Q2OpbMMtvUiZ2yXzLQPvfw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: qa.automation.jubelio@gmail.com
-      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -420,22 +436,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div[1]/li
-    priority: 2
-- id: Q2OpbMMtvUiZ2yXzLQPvfw
-  name: qa.automation.jubelio@gmail.com
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = 'qa.automation.jubelio@gmail.com']
-    priority: 0
-  - name: XPATH
-    value: //div/li/a/span[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div[2]/div[2]/div[1]/nav/div/div/li/a/span[1]
     priority: 2
 projectParameters: []
 addons: []
