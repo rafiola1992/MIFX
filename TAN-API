@@ -1,18 +1,18 @@
-id: J4DTD1iRYEaw_GV2fgFaJg
+id: 9Y4LX-R9FESCax8FHQArGQ
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T07:52:15.5517886Z
+created: 2021-11-22T07:53:17.4900206Z
 protocol: 1
 tests:
 - id: 6wI6IBsTCUK7PjnbkhKZYg
-  name: TAP-API - copy
+  name: TAN-API
   description: API Positive Case
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T07:52:15.0000000
-  modificationDate: 2021-11-22T07:52:15.0000000
+  modificationDate: 2021-11-22T07:53:17.0000000
   settings:
     automationAssistant: true
     appId: qMB-eFwLTUqPMPgnym5J_g
@@ -474,6 +474,8 @@ tests:
     description: ''
     value: https://docs.jubelio.com/
     type: Input
+  tags:
+  - Negatif-Test-case
 auxTests: []
 elements: []
 projectParameters: []
