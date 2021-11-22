@@ -1,18 +1,18 @@
-id: fqJGEYsv1UG3YJZuym-hGg
+id: _RNOZrO7DEaoROQWnRhawA
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T07:34:27.3252179Z
+created: 2021-11-22T07:35:15.5776281Z
 protocol: 1
 tests:
 - id: zgL857Uuh0OX8361p6iugg
-  name: TestAPI - copy
-  description: api
+  name: TAN-TestAPI
+  description: API negatif case
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T07:34:26.0000000
-  modificationDate: 2021-11-22T07:34:26.0000000
+  modificationDate: 2021-11-22T07:35:15.0000000
   settings:
     automationAssistant: true
     appId: qMB-eFwLTUqPMPgnym5J_g
