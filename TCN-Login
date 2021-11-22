@@ -1,7 +1,7 @@
-id: WuJ8V0KLtEeUYHW-fKuxgg
+id: qrBH2MNy7EaK8Ak2O8zXqQ
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T06:30:50.1462855Z
+created: 2021-11-22T06:39:05.2905502Z
 protocol: 1
 tests:
 - id: g-XDCzIUdUKSD0qbEck45g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T06:29:39.0000000
-  modificationDate: 2021-11-22T06:30:50.0000000
+  modificationDate: 2021-11-22T06:32:40.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
@@ -131,7 +131,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Jubelio@1234
+      value: Rafiola@1234
       direction: Input
     conditions: []
     validations: []
