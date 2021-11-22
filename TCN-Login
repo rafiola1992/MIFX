@@ -1,18 +1,18 @@
-id: dU8wqAgZ5k2VqTc1wlf1oA
+id: WuJ8V0KLtEeUYHW-fKuxgg
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T06:29:39.0327993Z
+created: 2021-11-22T06:30:50.1462855Z
 protocol: 1
 tests:
 - id: g-XDCzIUdUKSD0qbEck45g
-  name: TC-Login - copy
-  description: login
+  name: TCN-Login
+  description: Negative Login
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T06:29:39.0000000
-  modificationDate: 2021-11-22T06:29:39.0000000
+  modificationDate: 2021-11-22T06:30:50.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
