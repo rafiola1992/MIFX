@@ -1,18 +1,18 @@
-id: iHJ9pMS1G0qX8cCyI-G2wQ
+id: kcQjXk24h0CgI0dhMVsgeg
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T06:30:18.0241552Z
+created: 2021-11-22T06:31:06.5405150Z
 protocol: 1
 tests:
 - id: BwZi-pmVDUubTtANVZASJw
   name: TCP-Login
-  description: positive login
+  description: Positive Login
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-19T11:53:44.0000000
-  modificationDate: 2021-11-22T06:30:17.0000000
+  modificationDate: 2021-11-22T06:31:06.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
