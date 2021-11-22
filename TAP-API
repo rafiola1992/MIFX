@@ -1,18 +1,18 @@
-id: ebPtL5bPaEyp42T31_zsqw
+id: WOIeNnThT0q_Hl8-TaDbTw
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T07:35:55.5462381Z
+created: 2021-11-22T07:36:27.7735578Z
 protocol: 1
 tests:
 - id: 0IUqNfLfPUG-Gcjteg16lw
-  name: TAP-TestAPI
-  description: Posi
+  name: TAP-API
+  description: API Positive Case
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-19T12:21:41.0000000
-  modificationDate: 2021-11-22T07:35:55.0000000
+  modificationDate: 2021-11-22T07:36:27.0000000
   settings:
     automationAssistant: true
     appId: qMB-eFwLTUqPMPgnym5J_g
