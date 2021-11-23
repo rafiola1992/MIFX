@@ -1,7 +1,7 @@
-id: 2cyWWLf0j0WoaPQ314PtaQ
+id: N6jE3AU23EqRHVq_Q4PZDA
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-23T03:37:40.7730958Z
+created: 2021-11-23T03:38:09.0084543Z
 protocol: 1
 tests:
 - id: BwZi-pmVDUubTtANVZASJw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-19T11:53:44.0000000
-  modificationDate: 2021-11-23T03:37:41.0000000
+  modificationDate: 2021-11-23T03:38:09.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
