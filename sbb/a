@@ -1,0 +1,61 @@
+id: AEFrC4Q4Ikyeee8OceJjqw
+projectId: gaFljj7WsUyWzw5t8FxMSg
+projectName: JUBELIO
+created: 2021-12-06T14:28:06.9256072Z
+protocol: 1
+tests:
+- id: ygpEs9_5H0ai-syPL9VB1Q
+  name: a
+  description: a
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-12-06T14:28:07.0000000
+  modificationDate: 2021-12-06T14:28:07.0000000
+  settings:
+    automationAssistant: true
+    appId: ywkK8bXCUUaFkIcTDiNizw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: ywkK8bXCUUaFkIcTDiNizw
+    name: url-jubelio
+    url: https://jubelio.com/
+    platform: Web
+  steps:
+  - id: pm9A5RSImEWle8bNCLd0WA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://jubelio.com/
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
