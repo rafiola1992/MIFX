@@ -1,7 +1,7 @@
-id: AEFrC4Q4Ikyeee8OceJjqw
+id: FMjObrolSkeLBPyeOpz6xQ
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-12-06T14:28:06.9256072Z
+created: 2021-12-06T14:29:08.7371499Z
 protocol: 1
 tests:
 - id: ygpEs9_5H0ai-syPL9VB1Q
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T14:28:07.0000000
-  modificationDate: 2021-12-06T14:28:07.0000000
+  modificationDate: 2021-12-06T14:28:46.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
@@ -50,12 +50,48 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: qyFby6i4B0Wyb6vIK_MEqw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 8Uog395RHE-GuCGu0Ercqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://jubelio.com/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: 8Uog395RHE-GuCGu0Ercqg
+  name: LOGIN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[7]//span[. = 'LOGIN']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/ul/li[7]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/header/div/div[1]/div/div[4]/ul/li[7]/div/a/span
+    priority: 2
 projectParameters: []
 addons: []
