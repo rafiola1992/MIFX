@@ -1,37 +1,142 @@
-id: pBIeqGffK0ubeqp1zhRzwA
+id: 7L9hpkcuO02sJv64FHO7QQ
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-22T11:01:58.1314584Z
+created: 2021-12-09T02:54:29.0544374Z
 protocol: 1
 tests:
-- id: 0IUqNfLfPUG-Gcjteg16lw
-  name: TAP-APINEGATIF
-  description: API Positive Case
+- id: VPIeNoGWM0KyaHCVnmqcWA
+  name: API Test Negative
+  description: API Test Negative
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
-  creationDate: 2021-11-19T12:21:41.0000000
-  modificationDate: 2021-11-22T11:01:58.0000000
+  creationDate: 2021-12-08T04:57:36.0000000
+  modificationDate: 2021-12-08T04:57:36.0000000
   settings:
-    automationAssistant: true
-    appId: qMB-eFwLTUqPMPgnym5J_g
+    automationAssistant: false
+    appId: 2zUEaA8il0aVloMgdGUWnQ
     stepSleepTime: 500
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   application:
-    id: qMB-eFwLTUqPMPgnym5J_g
-    name: docAPI
-    url: https://docs.jubelio.com/
+    id: 2zUEaA8il0aVloMgdGUWnQ
+    name: API Test Negative
+    url: https://jubelio.com/
     platform: Web
   steps:
-  - id: ssxB7kQz2ke1iQ2mHBbFcA
-    comments: ''
+  - id: DMbZXa6Zm0ehIZrh86SLQQ
+    comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mb7P1lw-TUqGNXDrXMooQQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: uri
+      value: https://api.jubelio.com/login
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+        "email": "",
+
+        "password": ""
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PCcbGSJiIEuNFNH3cfjcWQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
     repeat: 1
     type: Addon
     settings:
@@ -54,21 +159,8 @@ tests:
     - name: headers
       value: ''
       direction: Input
-    - name: body
-      value: >-
-        {
-
-        "email": "qa.automation.jubelio@gmail.com",
-
-        "password": "Jubelio@1234"
-
-        }
-      direction: Input
-    - name: format
-      value: ''
-      direction: Input
     - name: expectedStatus
-      value: 200
+      value: 400
       direction: Input
     - name: jsonPath
       value: ''
@@ -101,6 +193,19 @@ tests:
       value: ''
       direction: Output
     - name: headerDelimiter
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+        "email": "qa.automation.jubelio@gmail.com",
+
+        "password": ""
+
+        }
+      direction: Input
+    - name: format
       value: ''
       direction: Input
     - name: filePath
@@ -109,151 +214,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: F7Tnn7JwhU2304zN_MHORg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: DiRlYudmtUGjjOgGCGzRIA
-      source: Store
-      addonId: Ujn6E4VbkEa6QU2XChYMyQ
-    parameterMaps:
-    - name: uri
-      value: https://api.jubelio.com/inventory/
-      direction: Input
-    - name: query
-      value: ''
-      direction: Input
-    - name: headers
-      value: Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6MTM5LjU5LjI0My4xMjhxYS5hdXRvbWF0aW9uLmp1YmVsaW9AZ21haWwuY29tIiwiZXhwIjoxNjM3Mzg2MDQxNzc3LCJpYXQiOjE2MzczNDI4NDF9.A2jZ8SkwvtDjxzwdLQvuPS5RCb3ZLHYrKYW-TkQPFa4
-      direction: Input
-    - name: expectedStatus
-      value: 200
-      direction: Input
-    - name: jsonPath
-      value: ''
-      direction: Input
-    - name: response
-      value: ''
-      direction: Output
-    - name: status
-      value: ''
-      direction: Output
-    - name: ignoreUntrustedCertificate
-      value: ''
-      direction: Input
-    - name: responseHeaders
-      value: ''
-      direction: Output
-    - name: jsonResponse
-      value: ''
-      direction: Output
-    - name: schemaPath
-      value: ''
-      direction: Input
-    - name: createFile
-      value: ''
-      direction: Input
-    - name: schemaValidationOutputFilePath
-      value: ''
-      direction: Input
-    - name: schemaValidationOutput
-      value: ''
-      direction: Output
-    - name: headerDelimiter
-      value: ''
-      direction: Input
-    - name: body
-      value: ''
-      direction: Input
-    - name: format
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: ADcXU_i1cU-xt4vB9icrDw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: DiRlYudmtUGjjOgGCGzRIA
-      source: Store
-      addonId: Ujn6E4VbkEa6QU2XChYMyQ
-    parameterMaps:
-    - name: uri
-      value: https://api.jubelio.com/inventory/adjustments/
-      direction: Input
-    - name: query
-      value: ''
-      direction: Input
-    - name: headers
-      value: Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6MTM5LjU5LjI0My4xMjhxYS5hdXRvbWF0aW9uLmp1YmVsaW9AZ21haWwuY29tIiwiZXhwIjoxNjM3Mzg2MDQxNzc3LCJpYXQiOjE2MzczNDI4NDF9.A2jZ8SkwvtDjxzwdLQvuPS5RCb3ZLHYrKYW-TkQPFa4
-      direction: Input
-    - name: expectedStatus
-      value: ''
-      direction: Input
-    - name: jsonPath
-      value: ''
-      direction: Input
-    - name: response
-      value: ''
-      direction: Output
-    - name: status
-      value: ''
-      direction: Output
-    - name: ignoreUntrustedCertificate
-      value: ''
-      direction: Input
-    - name: responseHeaders
-      value: ''
-      direction: Output
-    - name: jsonResponse
-      value: ''
-      direction: Output
-    - name: schemaPath
-      value: ''
-      direction: Input
-    - name: createFile
-      value: ''
-      direction: Input
-    - name: schemaValidationOutputFilePath
-      value: ''
-      direction: Input
-    - name: schemaValidationOutput
-      value: ''
-      direction: Output
-    - name: headerDelimiter
-      value: ''
-      direction: Input
-    - name: body
-      value: ''
-      direction: Input
-    - name: format
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: EHAcce8pEESrjw8obvlurQ
+  - id: d0rungdZP0S2xXT_js0WhA
     comments: ''
     enabled: true
     invertResult: false
@@ -267,21 +228,24 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: DiRlYudmtUGjjOgGCGzRIA
+      id: 3pyX37O89EenPV590WXfPQ
       source: Store
       addonId: Ujn6E4VbkEa6QU2XChYMyQ
     parameterMaps:
+    - name: jsonResponse
+      value: ''
+      direction: Output
     - name: uri
-      value: https://api.jubelio.com/inventory/items/1/batch-number
+      value: https://api.jubelio.com/login
       direction: Input
     - name: query
       value: ''
       direction: Input
     - name: headers
-      value: Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6MTM5LjU5LjI0My4xMjhxYS5hdXRvbWF0aW9uLmp1YmVsaW9AZ21haWwuY29tIiwiZXhwIjoxNjM3Mzg2MDQxNzc3LCJpYXQiOjE2MzczNDI4NDF9.A2jZ8SkwvtDjxzwdLQvuPS5RCb3ZLHYrKYW-TkQPFa4
+      value: ''
       direction: Input
     - name: expectedStatus
-      value: ''
+      value: 500
       direction: Input
     - name: jsonPath
       value: ''
@@ -292,13 +256,7 @@ tests:
     - name: status
       value: ''
       direction: Output
-    - name: ignoreUntrustedCertificate
-      value: ''
-      direction: Input
     - name: responseHeaders
-      value: ''
-      direction: Output
-    - name: jsonResponse
       value: ''
       direction: Output
     - name: schemaPath
@@ -317,15 +275,28 @@ tests:
       value: ''
       direction: Input
     - name: body
-      value: ''
+      value: >-
+        {
+
+        "email": "qa.automation.jubelio@gmail.com",
+
+        "password": "123"
+
+        }
       direction: Input
     - name: format
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    - name: ignoreUntrustedCertificate
       value: ''
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: 1BHIdNw3iEaWUCkyiaSwaw
+  - id: EAKVdEkgGUiHDSiV8hd8Iw
     comments: ''
     enabled: true
     invertResult: false
@@ -339,28 +310,28 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: DiRlYudmtUGjjOgGCGzRIA
+      id: 3pyX37O89EenPV590WXfPQ
       source: Store
       addonId: Ujn6E4VbkEa6QU2XChYMyQ
     parameterMaps:
+    - name: response
+      value: ''
+      direction: Output
     - name: uri
-      value: https://api.jubelio.com/systemsetting/account-mapping
+      value: https://api.jubelio.com/login
       direction: Input
     - name: query
       value: ''
       direction: Input
     - name: headers
-      value: Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6MTM5LjU5LjI0My4xMjhxYS5hdXRvbWF0aW9uLmp1YmVsaW9AZ21haWwuY29tIiwiZXhwIjoxNjM3Mzg2MDQxNzc3LCJpYXQiOjE2MzczNDI4NDF9.A2jZ8SkwvtDjxzwdLQvuPS5RCb3ZLHYrKYW-TkQPFa4
+      value: ''
       direction: Input
     - name: expectedStatus
-      value: ''
+      value: 500
       direction: Input
     - name: jsonPath
       value: ''
       direction: Input
-    - name: response
-      value: ''
-      direction: Output
     - name: status
       value: ''
       direction: Output
@@ -379,9 +350,6 @@ tests:
     - name: createFile
       value: ''
       direction: Input
-    - name: schemaValidationOutputFilePath
-      value: ''
-      direction: Input
     - name: schemaValidationOutput
       value: ''
       direction: Output
@@ -389,15 +357,28 @@ tests:
       value: ''
       direction: Input
     - name: body
-      value: ''
+      value: >-
+        {
+
+        "email": "qa.automation.jubelio@gmail.com",
+
+        "password": "123"
+
+        }
       direction: Input
     - name: format
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
       value: ''
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: a4C6u2oSokCIFYFeSsOStw
+  - id: -5R0OvXOoEmWiXAEl7LGcg
     comments: ''
     enabled: true
     invertResult: false
@@ -411,21 +392,103 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: DiRlYudmtUGjjOgGCGzRIA
+      id: 3pyX37O89EenPV590WXfPQ
       source: Store
       addonId: Ujn6E4VbkEa6QU2XChYMyQ
     parameterMaps:
     - name: uri
-      value: https://api.jubelio.com/marketplace/store/
+      value: https://api.jubelio.com/login
       direction: Input
     - name: query
       value: ''
       direction: Input
     - name: headers
-      value: Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlVTRVI6MTM5LjU5LjI0My4xMjhxYS5hdXRvbWF0aW9uLmp1YmVsaW9AZ21haWwuY29tIiwiZXhwIjoxNjM3Mzg2MDQxNzc3LCJpYXQiOjE2MzczNDI4NDF9.A2jZ8SkwvtDjxzwdLQvuPS5RCb3ZLHYrKYW-TkQPFa4
+      value: ''
       direction: Input
     - name: expectedStatus
+      value: 500
+      direction: Input
+    - name: jsonPath
       value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: status
+      value: ''
+      direction: Output
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    - name: body
+      value: >-
+        {
+
+        "email": "qa.automation.jubelio@gmail",
+
+        "password": "12345678"
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jc6jBI2DFUioQBxUi3j3cQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://api.jubelio.com/login
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: 500
       direction: Input
     - name: jsonPath
       value: ''
@@ -461,18 +524,110 @@ tests:
       value: ''
       direction: Input
     - name: body
+      value: >-
+        {
+
+        "email": "qa.automation.jubelio@gmail",
+
+        "password": "Jubelio@1235"
+
+        }
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GIJS_b7AD0awVbCdu5i_hw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: query
+      value: ''
+      direction: Input
+    - name: uri
+      value: https://api.jubelio.com/login
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: 400
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: body
+      value: >-
+        {
+
+        "email": "",
+
+        "password": "Jubelio@1234"
+
+        }
+      direction: Input
+    - name: headerDelimiter
       value: ''
       direction: Input
     - name: format
+      value: ''
+      direction: Input
+    - name: filePath
       value: ''
       direction: Input
     conditions: []
     validations: []
     contexts: []
   parameters:
-  - name: docAPI
-    description: ''
-    value: https://docs.jubelio.com/
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://jubelio.com/
     type: Input
 auxTests: []
 elements: []
@@ -486,10 +641,6 @@ addons:
     name: HTTP POST Request
     description: POST {{uri}}?{{query}}
     className: io.testproject.addon.restfulapiclient.actions.PostAction
-  - id: DiRlYudmtUGjjOgGCGzRIA
-    name: HTTP GET Request
-    description: GET {{uri}}?{{query}}
-    className: io.testproject.addon.restfulapiclient.actions.GetAction
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
