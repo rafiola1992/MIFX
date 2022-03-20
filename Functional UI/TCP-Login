@@ -1,7 +1,7 @@
-id: N6jE3AU23EqRHVq_Q4PZDA
+id: F7Wc3gLlbUqBNVg-KZBnew
 projectId: gaFljj7WsUyWzw5t8FxMSg
 projectName: JUBELIO
-created: 2021-11-23T03:38:09.0084543Z
+created: 2022-03-20T07:42:16.1690031Z
 protocol: 1
 tests:
 - id: BwZi-pmVDUubTtANVZASJw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-19T11:53:44.0000000
-  modificationDate: 2021-11-23T03:38:09.0000000
+  modificationDate: 2022-03-04T09:21:21.0000000
   settings:
     automationAssistant: true
     appId: ywkK8bXCUUaFkIcTDiNizw
@@ -45,18 +45,18 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '{{ApplicationURL}}'
+      value: '{{login}}'
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: JEVUlB8F10yC_ydNTNP03w
+  - id: vKJXluCbqEy0S4fCKcnCTw
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
     type: Action
-    elementId: 8Uog395RHE-GuCGu0Ercqg
+    elementId: iVuR_lfJJUyAJuWJgmmK8Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -70,7 +70,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: HdbAw82vckiQZ3hZ0H30YQ
+  - id: BWwJtTqRvkWIpdsoIAUBJQ
     enabled: true
     invertResult: false
     order: 3
@@ -88,12 +88,12 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: qa.automation.jubelio@gmail.com
+      value: support@jubelio.com
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: m440OfjGKk62ExEKQT7jPQ
+  - id: SRRqBktlK0K11vPzOtvBIw
     enabled: true
     invertResult: false
     order: 4
@@ -113,7 +113,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: uopqP08qxUedB_t8wg-iYg
+  - id: 50alW8WavEOLEehx5CbBBA
     enabled: true
     invertResult: false
     order: 5
@@ -131,7 +131,114 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Jubelio@1234
+      value: 12345
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dJ2lGWWFEE-YFBIxsUM2Xw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: EiQ8KpwJZ0CmR4P_MBXWwA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1eXSBMroskC52UlkxFDsrw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: T2Wi_EfhK0aNZXAejSPbuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HdbAw82vckiQZ3hZ0H30YQ
+    enabled: false
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: iVuR_lfJJUyAJuWJgmmK8Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: support@jubelio.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: m440OfjGKk62ExEKQT7jPQ
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: T2Wi_EfhK0aNZXAejSPbuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uopqP08qxUedB_t8wg-iYg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: T2Wi_EfhK0aNZXAejSPbuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: hkQ4XW27XKLFK2!
       direction: Input
     conditions: []
     validations: []
@@ -139,7 +246,7 @@ tests:
   - id: ERE6ZxTJrkymmtjJ6yHDCA
     enabled: true
     invertResult: false
-    order: 6
+    order: 11
     repeat: 1
     type: Action
     elementId: EiQ8KpwJZ0CmR4P_MBXWwA
@@ -160,7 +267,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 12
     repeat: 1
     type: Action
     elementId: sYQW-qm7pkCBIJ8PFIIdbw
@@ -185,24 +292,12 @@ tests:
     description: Auto generated application URL parameter
     value: https://jubelio.com/
     type: Input
+  - name: login
+    description: ''
+    value: https://app.jubelio.com/login
+    type: Input
 auxTests: []
 elements:
-- id: 8Uog395RHE-GuCGu0Ercqg
-  name: LOGIN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //li[7]//span[. = 'LOGIN']
-    priority: 0
-  - name: XPATH
-    value: //div[4]/ul/li[7]//span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/header/div/div[1]/div/div[4]/ul/li[7]/div/a/span
-    priority: 2
 - id: iVuR_lfJJUyAJuWJgmmK8Q
   name: email
   type:
